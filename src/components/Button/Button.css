@@ -1,0 +1,25 @@
+button {
+  padding: 10px 20px;
+  border-radius: 50px;
+  width: 84px;
+  cursor: pointer;
+}
+
+button:disabled,
+button[disabled] {
+  background-color: #c9d1d9;
+  color: #9ca3af;
+}
+
+.button-primary {
+  background-color: #8800ff;
+  color: white;
+  border: none;
+}
+
+.button-secondary {
+  background-color: white;
+  color: #8800ff;
+  border: 1px solid #8800ff;
+}
+
